@@ -52,7 +52,7 @@ $db = [
         <ul>
                 <?php foreach($db["pm"] as $key => $name) {  ?>
                     <li>
-                        <?php echo $name["name"] . ' ' . $name["lastname"] ?>
+                        <?php echo 'Nome:' . $name["name"] . ' ' . $name["lastname"] ?>
                     </li>
                 <?php }?>    
             </ul>
