@@ -2,15 +2,18 @@
 
 
 
-class Membership{
+class Membership {
+    private $level;
 
-    public function __construct(){
+    public function __construct($level){
+        $this->level = $level;
     }
 
-    public function getUser(){
+    public function getLevel(){
+        return $this->level;
     }
 
-    public function setUser(){
-
+    public function setLevel($level) {
+        $this->level = $level;
     }
 }
